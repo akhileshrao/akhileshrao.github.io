@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Death Machine!"
+title:  "Welcome to Death Machine!"
 date:   2022-11-23 09:38:46 +0530
 categories: jekyll update
 ---
