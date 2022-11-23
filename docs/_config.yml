@@ -18,31 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-html: <iframe width="560" height="315" src="https://www.youtube.com/embed/VwyRyR_dhyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-dimensions:
-  title: Death Machine
-  width: 4 metres
-  height: 8 metres
+--- 
+baseurl: gh-pages
+description: |
+    Death Machine is an immersive First-Person Shooter game placed in a Sci-Fi World. 
+    The player has the ability to wield a gun and traverse through a futuristic world where one is met by an Enemy, who is an agent with a gun.
+    Enemy's are programmed to fire at the player until they have claimed vengence (health  for player is still being worked out). 
+    The only way to escape their vengence is by shooting at them and reaching the final destination to win the game!
+    The trick is that no indiciation of the Win Zone has been provided, so the player must explore the landscape to find the zone to win the game. 
+    On entering the Win Zone, all Enemy's are auto-killed and you WIN THE GAME!
+dimensions: 
+  height: "8 metres"
+  title: "Death Machine"
+  width: "4 metres"
 email: akhileshrao28@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Death Machine is an immersive First-Person Shooter game placed in a Sci-Fi World. 
-
-  The player has the ability to wield a gun and traverse through a futuristic world where one is met by an Enemy,
-  who is an agent with a gun, and are programmed to fire at the player until they have claimed vengence (health 
-  for player is still being worked out). The only way to escape their vengence is by shooting at them and 
-  reaching the final destination to win the game!
-
-  The trick is that no indiciation of the Win Zone has been provided, so the player must explore the landscape
-  to find the zone to win the game. On entering the Win Zone, all Enemy's are auto-killed and you WIN THE GAME!
-baseurl: gh-pages # the subpath of your site, e.g. /blog
-url: https://akhileshrao.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: akhileshrao28
-github_username:  akhileshrao
-
-# Build settings
-theme: minima
-plugins:
+github_username: akhileshrao
+html: "https://www.youtube.com/embed/VwyRyR_dhyE"
+plugins: 
   - jekyll-feed
+theme: minima
+twitter_username: akhileshrao28
+url: "https://akhileshrao.github.io"
 
 
 # Exclude from processing.
